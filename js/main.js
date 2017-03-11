@@ -10,15 +10,13 @@ $(document).ready (function () {
     
     
     // Get DOM elements
-    var user_field = $('[name="lastfm-user"]');
     var lyrics_wrapper = $('.lyrics-wrapper');
     var spotify_sync_link = $('.sync-spotify-action');
     var lastfm_user_field = $('[name="lastfm-user"]');
     var song_title = $('.song-title');
-    var artist_title = $('.artist-title');
+    var artist_title = $('.song-artist');
     var sync_action = $('.sync-action');
-    var artist_title = $('.artist-title');
-    var sync_action = $('.sync-action');
+    var user_field = $('[name="lastfm-user"]');
     var user_title = $('.user-profile-title');
     var user_image = $('.user-profile-image');
 
