@@ -1,6 +1,6 @@
-## Lyrics Orinics - A Mashups application
+# Lyrics Orinics - A Mashups application
 ## Current Web trends 2016-17
-# José Antonio García Díaz
+### José Antonio García Díaz
 
 The assignment consist in develop a mash-up application. In this case I decided to do a music stuff because is one of my hobbies. I come with the idea of retrieve the lyrics of the songs you are listening on radio.fm (or spotify if the user has the accounts connected)
 
@@ -9,7 +9,7 @@ The application developed has been uploaded to a github repository and  with the
 You can visit the application here
 https://smolky.github.io/lyrics-onirics/
 
-# Instructions
+## Instructions
 To use this application you have an lastfm account that you can create here: https://www.last.fm/es/join?next=/es/ (or use mine joseagd).
 
 *TIP*: You can sync your last.fm account with Spotify, so when you listen a song on spotify then the lyrics will be loaded. 
@@ -21,13 +21,13 @@ Once is all setup the application makes queries to retrieve the following inform
 - The track_id from musixmatch
 - The lyrics from musixmatch api
 
-# Restrictions
+## Restrictions
 The free use of the MusixMatch API is restricted to no more than 2K queries and only to fetch the 30% of the lyrics.
 
-# Work to done
+## Work to done
 The lyrics are poorly formatted. I try to decide where are the new lines splitting the letters in uppercase but a lot of improvements could be done here.
 
-# APIs used
+## APIs used
 http://www.last.fm/es/api
 https://developer.musixmatch.com/
 
