@@ -4,19 +4,8 @@ $(document).ready (function () {
     var timeout = 60;
 
 
-    // Spotify
-    var client_id = '9874932e34f4485aabd6ff212c872c6d';
-    var client_secret = 'ab5f16f86a3b4bcfb422764fa809827e'; 
-    var redirect_uri = 'http://www.um.es/prinum/newweb/private/'; 
-    var scopes = 'user-read-private user-read-recently-played';
-
-
-    // Last.fm
-    var lastfm_api_key = '3a9edb3174bef536a5b3f88356598e24';
-    var lastfm_shared_key = '3a9edb3174bef536a5b3f88356598e24'; 
-
-
-    // musixmatch
+    // API Keys
+    var lastfm_api_key = '1ca8aa035bb77c75efffd489397c65e0';
     var musixmatch_api_key = 'b46ce3856bfb01d9f0d1e469dd0d8a81';
     
     
