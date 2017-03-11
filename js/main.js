@@ -55,7 +55,7 @@ $(document).ready (function () {
         // Retrieve recent tracks from LAST.FM account
         $.ajax({
             url: 
-                'http://ws.audioscrobbler.com/2.0/' +
+                'https://ws.audioscrobbler.com/2.0/' +
                 '?method=user.getrecenttracks' + 
                 '&user=' + user + 
                 '&api_key=' + lastfm_api_key + 
@@ -87,7 +87,7 @@ $(document).ready (function () {
                     // Retrieve track information in musixmatch
                     $.ajax ({
                         type: "GET",
-                        url: "http://api.musixmatch.com/ws/1.1/track.search",
+                        url: "https://api.musixmatch.com/ws/1.1/track.search",
                         data: {
                             'q_artist': item.artist['#text'],
                             'q_track': item.name,
@@ -122,7 +122,7 @@ $(document).ready (function () {
                             // Retrieve lyrics
                             $.ajax ({
                                 type: "GET",
-                                url: "http://api.musixmatch.com/ws/1.1/track.lyrics.get",
+                                url: "https://api.musixmatch.com/ws/1.1/track.lyrics.get",
                                 data: {
                                     'track_id': track_id,
                                     'apikey': musixmatch_api_key,
@@ -207,7 +207,7 @@ $(document).ready (function () {
         // Retrieve info
         $.ajax({
             url: 
-                'http://ws.audioscrobbler.com/2.0/' +
+                'https://ws.audioscrobbler.com/2.0/' +
                 '?method=user.getinfo' + 
                 '&user=' + localStorage.user + 
                 '&api_key=' + lastfm_api_key + 
